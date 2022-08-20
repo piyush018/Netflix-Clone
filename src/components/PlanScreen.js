@@ -1,6 +1,6 @@
 import React ,{useState , useEffect} from 'react'
-import './PlanScreen.css'
-import db from '../firebaseConfig'
+import '../styles/PlanScreen.css'
+import db from '../firebase/firebaseConfig'
 import {getDocs, addDoc, collection ,where, onSnapshot } from "firebase/firestore"
 import { selectUser } from '../features/userSlice'
 import { useSelector } from 'react-redux'

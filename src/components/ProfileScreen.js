@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from './Navbar'
 import { useSelector } from 'react-redux'
 import {selectUser} from "../features/userSlice"
-import { auth } from '../firebaseConfig'
-import  "./ProfileScreen.css"
+import { auth } from '../firebase/firebaseConfig'
+import  "../styles/ProfileScreen.css"
 import PlanScreen from './PlanScreen'
 
 function ProfileScreen() {

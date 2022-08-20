@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
-import './Navbar.css'
+import '../styles/Navbar.css'
 
 function Navbar() {
 
@@ -29,7 +29,7 @@ function Navbar() {
          src='https://www.freepnglogos.com/uploads/netflix-logo-0.png' alt="" />
      <img onClick={()=>history.push("/profile")}
      className='nav-avatar'
-     src="https://pbs.twimg.com/media/Ev0Fa_MXAAAREWR.jpg" alt="" />
+     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgEJV3cKCbNgHCBPY-66a3YN5NGx-7ZPDdpPbhkFv7Tw&s" alt="" />
     </div>
     </div>
   )
